@@ -14,9 +14,9 @@ const PrivacyPolicy = () => {
       <p>For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information, including but not limited to indoverseid@gmail.com. The information that I request will be retained on your device and is not collected by me in any way.</p>
       <p>The app does use third party services that may collect information used to identify you.</p>
       <p>Reference to third party service providers used by the app are below:</p>
-      <ul>
-        <li>Admob</li>
-        <li>Google Play Services</li>
+      <ul style={{ listStyleType: 'circle', paddingLeft: '20px' }}>
+        <li style={{ fontWeight: 'bold' }}>Admob</li>
+        <li style={{ fontWeight: 'bold' }}>Google Play Services</li>
       </ul>
 
       <h2 style={{ fontSize: '1.5em', marginTop: '20px' }}>2. Log Data</h2>
@@ -47,10 +47,13 @@ const PrivacyPolicy = () => {
 
       <h2 style={{ fontSize: '1.5em', marginTop: '20px' }}>8. Changes to This Privacy Policy</h2>
       <p>I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.</p>
-      <p>This policy is effective as of 16-12-2024.</p>
+      <p style={{ fontWeight: 'bold' }}>This policy is effective as of 16-12-2024.</p>
 
       <h2 style={{ fontSize: '1.5em', marginTop: '20px' }}>9. Contact Us</h2>
-      <p>If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at indoverseid@gmail.com.</p>
+      <p>If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at 
+        <span style={{ fontWeight: 'bold', color: '#007bff' }}> indoverseid@gmail.com</span>.
+      </p>
+
     </div>
   );
 };

@@ -21,9 +21,9 @@ const TermsAndConditions = () => {
 
       <h2 style={{ fontSize: '1.5em', marginTop: '20px' }}>1. Third-Party Terms</h2>
       <p>Terms and Conditions of third party service providers used by the app are bound to owners:</p>
-      <ul>
-        <li>Admob</li>
-        <li>Google Play Services</li>
+      <ul style={{ listStyleType: 'circle', paddingLeft: '20px' }}>
+        <li style={{ fontWeight: 'bold' }}>Admob</li>
+        <li style={{ fontWeight: 'bold' }}>Google Play Services</li>
       </ul>
 
       <h2 style={{ fontSize: '1.5em', marginTop: '20px' }}>2. Internet Connection and Charges</h2>
@@ -58,7 +58,8 @@ const TermsAndConditions = () => {
 
       <h2 style={{ fontSize: '1.5em', marginTop: '20px' }}>6. Contact Us</h2>
       <p>
-        If you have any questions or suggestions about my Terms and Conditions, do not hesitate to contact me at indoverseid@gmail.com.
+        If you have any questions or suggestions about my Terms and Conditions, do not hesitate to contact me at
+        <span style={{ fontWeight: 'bold', color: 'dodgerblue' }}> indoverseid@gmail.com</span>.
       </p>
     </div>
   );
