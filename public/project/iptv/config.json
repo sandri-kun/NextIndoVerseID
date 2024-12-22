@@ -6,7 +6,15 @@
     "can_not_skip": false,
     "enable_ads": true,
     "max_app_open_ads_count": 8,
-    "app_ads_config": "OQhFNva96Pu5XxyTLhjHru5h4eitcxlXFWdatByfQOSpwLb8YXp9gmPMVoyOjIpzjsKjuzsWqh5k4axiY3HdfnuiGlL8+4wBeRjtVr4s6VFpmXr7FHBJ4HwWNs88YtihZcqxyN4gX/zaq2oSkuAINcZ9MLvm8Wa5UJmOYU0bweHG7TJoNnKqaTk5iME7y6smhj/iqOb/99UzUpFa7x0s3zCDX6YuDAKm/anbEGJ2Ao8CwhMg7aX5RuBo39gRnzSde41SItqwHYHh9V7HvU0gYAFSZ/94h8dgeD33sM8yJY6t0RDxVZQ1da+HDXIoMq2ORWINu7TmIhEjznbJ9W4ObfLS8hENBhrMcVp2lz4WU1MlTfJc8lf9fCDbgFOBYubImiJ6Fsevz+Zdg92EUNjSgjgMSMhcDd3tnQqG/WvfqNpnbOYo6mk9OlipL1HgeSlKd/C7QZmBbw+Iwl7jWDxJVGZPJR6lHBHCLi08zN60P2/jiVxIxVM6V4+bw7Fl0/O5",
+    "app_ads_config": {
+        "version": 1.2,
+        "app_id": "ca-app-pub-3940256099942544~3347511713",
+        "banner_id": "ca-app-pub-3940256099942544/9214589741",
+        "interstitial_id": "ca-app-pub-3940256099942544/1033173712",
+        "native_id": "ca-app-pub-3940256099942544/2247696110",
+        "rewarded_id": "ca-app-pub-3940256099942544/5224354917",
+        "app_open_id": "ca-app-pub-3940256099942544/9257395921"
+    },
     "enable_log": false,
     "ads_config": "",
     "url": "https://google.com",
