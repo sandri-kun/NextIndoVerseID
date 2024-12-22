@@ -38,8 +38,18 @@ def decrypt_string(encrypted_data: str, key: str) -> str:
 
 # Contoh penggunaan
 if __name__ == "__main__":
-    key = "mysecretkey12345"  # Panjang key disesuaikan menjadi 16 karakter
-    data = "Ini adalah data yang akan dienkripsi"
+    key = "indoverseidscure" # Panjang key disesuaikan menjadi 16 karakter
+    data = '''
+{
+    "version": 1.2,
+    "app_id": "ca-app-pub-3940256099942544~3347511713",
+    "banner_id": "ca-app-pub-3940256099942544/9214589741",
+    "interstitial_id": "ca-app-pub-3940256099942544/1033173712",
+    "native_id": "ca-app-pub-3940256099942544/2247696110",
+    "rewarded_id": "ca-app-pub-3940256099942544/5224354917",
+    "app_open_id": "ca-app-pub-3940256099942544/9257395921"
+}
+'''
 
     encrypted = encrypt_string(data, key)
     print("Hasil Enkripsi:", encrypted)
