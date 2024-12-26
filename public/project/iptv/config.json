@@ -5,7 +5,7 @@
     "version_can_skip": "1.0",
     "can_not_skip": false,
     "enable_ads": true,
-    "max_app_open_ads_count": 8,
+    "max_app_open_ads_count": 50,
     "enable_log": false,
     "ads_config": "",
     "url": "https://google.com",
