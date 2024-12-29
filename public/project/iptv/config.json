@@ -4,7 +4,7 @@
     "version": "1.0",
     "version_can_skip": "1.0",
     "can_not_skip": false,
-    "enable_ads": true,
+    "enable_ads": false,
     "max_app_open_ads_count": 99,
     "enable_log": false,
     "ads_config": "",
