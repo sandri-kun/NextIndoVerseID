@@ -2,7 +2,7 @@
     "server_status": true,
     "title": "New Update",
     "version": "1.0",
-    "version_can_skip": "1.0",
+    "version_can_skip": "1.1.2",
     "can_not_skip": false,
     "enable_ads": false,
     "max_app_open_ads_count": 99,
