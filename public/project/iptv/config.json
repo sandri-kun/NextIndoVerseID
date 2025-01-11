@@ -7,6 +7,7 @@
     "enable_ads": false,
     "max_app_open_ads_count": 99,
     "enable_log": false,
+    "seide_note_text": "Hello eorld",
     "ads_config": "",
     "url": "https://google.com",
     "text": "**New update available**\n- **Bug fixes**\n- **New UI app**\n- Improved **PIP mode**\n- Added several **performance optimizations**\n- **UI** update for smoother experience",
